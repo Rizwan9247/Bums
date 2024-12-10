@@ -36,6 +36,7 @@ node bums.js
 For Proxy :
 ```
 node bums-proxy.js
+```
 For those using multiple accounts, it's recommended to use a proxy (if using only one account, there's no need to create the proxy.txt file).
 
 ---
