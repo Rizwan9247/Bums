@@ -1,7 +1,5 @@
 ## BUMS BOT
 
----
-
 ## BOT FEATURE
 
 - Auto tap
@@ -9,29 +7,35 @@
 - Auto task
 - Auto upgrade
 
----
-
-## REQUIREMENTS
-
-- Node JS
-- Git
-
-
----
-
-## INSTALL MODULES
-
-1. Clone Project Repository
+## COOMANDS
+```
+pkg install nodejs-lts
+```
+```
+pkg install git
+```
    ```bash
-   git clone https://github.com/D4rkCipherX/Bums.git && cd Bums
+   git clone https://github.com/Not-D4rkCipherX/Bums.git
+   ```
+   ```bash
+   cd Bums
    ```
 
-2. Install Dependencies
+2. **Instal Requirements:**
    ```bash
-   npm install
+   npm i
    ```
-3. nano data.txt
-
+3. **ADD ACCOUNTS**
+   ```
+   nano data.txt
+   ```
+4.**START THE BOT**
+```bash
+node bums.js
+```
+For Proxy :
+```
+node bums-proxy.js
 For those using multiple accounts, it's recommended to use a proxy (if using only one account, there's no need to create the proxy.txt file).
 
 ---
@@ -42,37 +46,4 @@ For those using multiple accounts, it's recommended to use a proxy (if using onl
 http://username:passwoord@hostname:port
 socks5://username:password@hostname:port
 ```
-
----
-
-# GET DATA
-
-In the `data.txt` file, you need to have the following format:
-
-```bash
-query_id=xxx
-user=xxxx
-
-# CONFIGURATION
-
-This configuration option of `config.json`
-
-```js
-{
-    "maxUpgradeCost": 1000000
-}
-```
-
----
-
-# RUN BOT
-
-1. No Proxy
-   ```bash
-   node bums.js
-   ```
-2. Proxy
-   ```bash
-   node bums-proxy.js
-   ```
-BUY ME A COFFEE : (Tron/TRX) TGHDx9dBsNSZSadiu4iJ5ZFW4a4KtRTEjq
+**TUTORIAL AVAILABLE ON MY YT**
