@@ -47,4 +47,4 @@ For those using multiple accounts, it's recommended to use a proxy (if using onl
 http://username:passwoord@hostname:port
 socks5://username:password@hostname:port
 ```
-**TUTORIAL AVAILABLE ON MY YT**
+**TUTORIAL AVAILABLE ON MY TG**
